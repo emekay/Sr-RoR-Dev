@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Estamos en Busqueda </title>
+        <!-- Iconos de Font Awesome (versión gratuita)-->
+        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Fuentes de Google-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- CSS del tema principal (incluye Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navegación-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">MELISSA PEREZ</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONTACTAME</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- TITULO-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Imagen de avatar--><img class="masthead-avatar mb-5" src="assets/img/girl.svg" alt="" /><!-- Encabezado-->
+                <h1 class="masthead-heading text-uppercase mb-0">Estamos en búsqueda de Senior Developers en Ruby on Rails</h1>
+                <!-- Divisor de iconos-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-mail"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Subtítulo-->
+                <p class="masthead-subheading font-weight-light mb-0">Estamos en búsqueda de Senior Developers en Ruby on Rails para una compañia High Tech de USA. Con al menos 4 años de experiencia en ROR, conocimientos de arquitectura de microservicios y un excelente inglés! La posición es en Monterrey , NL.</p>
+            <div>
+            </div>
+            </div>
+        </header>
+        
+        <!-- Sección de contacto-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Encabezado de la sección de contacto-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contactame</h2>
+                <!-- Divisor de iconos-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Formulario de sección de contacto-->
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <!-- Para configurar la dirección de correo electrónico del formulario de contacto, vaya a mail / contact_me.php y actualice la dirección de correo electrónico en el archivo PHP en la línea 19.-->
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Nombre</label><input class="form-control" id="name" type="text" placeholder="Nombre" required="required" data-validation-required-message="Por favor, escriba su nombre." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Dirección de correo electrónico</label><input class="form-control" id="email" type="email" placeholder="Dirección de correo electrónico" required="required" data-validation-required-message="Por favor, introduzca su dirección de correo electrónico." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Número de teléfono</label><input class="form-control" id="phone" type="tel" placeholder="Número de teléfono" required="required" data-validation-required-message="Por favor, introduzca su número de teléfono." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Mensaje</label><textarea class="form-control" id="message" rows="5" placeholder="Mensaje" required="required" data-validation-required-message="Por favor ingrese un mensaje."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <br />
+                            <div id="success"></div>
+                            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Enviar</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pie de página-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Ubicación del pie de página-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Ubicación</h4>
+                        <p class="lead mb-0">Monterrey<br />Nl. México</p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">SIGUEME</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-twitter"></i></a><a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-dribbble"></i></a>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Teléfono</h4>
+                        <p class="lead mb-0">8123523210</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+        <!-- Sección de derechos de autor-->
+        <section class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright © VentSys 2020</small></div>
+        </section>
+        <!-- Desplácese hasta el botón superior (solo visible en tamaños de pantalla pequeños y extra pequeños)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+       
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
